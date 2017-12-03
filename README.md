@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+# ButterCMS Blog Theme
 
-You can use the [editor on GitHub](https://github.com/kellydern/leftoftheabyss/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This repository contains a responsive blog theme based off the [ButterCMS blog](https://buttercms.com/blog/). This theme uses [Bootstrap](http://getbootstrap.com/) but it can easily be swapped out. The theme does not include a traditional header or footer since it is designed to be integrated into an existing website layout containing a header and footer.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[See the theme](https://buttercms.github.io/blog-template/)
 
-### Markdown
+### CSS
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The theme's CSS files live in the `styles` directory. `styles.css` is generated from the [SASS](http://sass-lang.com/) file `styles.scss`. To compile changes to the SASS file, install SASS and run the following command:
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```shell
+sass --watch styles/styles.scss:styles/styles.css
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Help
 
-### Jekyll Themes
+Open an issue here or email [support@buttercms.com](mailto:support@buttercms.com).
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kellydern/leftoftheabyss/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### License
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+This code is released under the MIT license – please use and modify this template for your own blog!
